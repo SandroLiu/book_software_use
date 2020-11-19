@@ -34,3 +34,6 @@ view.run_command('remove_comments')
 { "keys": ["ctrl+alt+shift+c"], "command": "remove_comments"}
 ```
 4. 注意，去除注释不能用在txt文件中，因为txt没有注释，只能用在源文件中。
+
+## 快速去除空格
+
