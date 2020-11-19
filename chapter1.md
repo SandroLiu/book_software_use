@@ -21,3 +21,9 @@ class RemoveCommentsCommand(sublime_plugin.TextCommand):
 ```
 
 2、现在可以通过控制台运行这个插件，只需输入下面的命令即可。Windows 可以使用快捷键 Ctrl + `呼出控制台，OSX 可以使用快捷键 Control + ` 呼出控制台，也可以点击 `View -> Show Console` 呼出控制台
+
+``` python
+
+view.run_command('remove_comments')
+
+```
