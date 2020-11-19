@@ -9,4 +9,13 @@
 
 ```python
 
+import sublime_plugin
+
+
+class RemoveCommentsCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        comments = self.view.find_by_selector('comment')
+        for region in reversed(comments):
+            self.view.erase(edit, region)
+
 ```
