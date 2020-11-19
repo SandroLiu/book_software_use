@@ -37,3 +37,5 @@ view.run_command('remove_comments')
 
 ## 快速去除空格
 
+1. 添加`DeleteBlankLines`Package
+2. 选中全部文本，执行 `Control + option + delete`
