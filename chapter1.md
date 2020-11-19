@@ -29,3 +29,7 @@ view.run_command('remove_comments')
 ```
 
 3. 设置快捷键，可以将插件绑定为快捷键，方便之后的调用，点击 `Preferences -> Key Bindings` 并写入下面代码，即可使用
+
+``` python
+{ "keys": ["ctrl+alt+shift+c"], "command": "remove_comments"}
+```
