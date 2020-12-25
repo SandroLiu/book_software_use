@@ -39,3 +39,6 @@ view.run_command('remove_comments')
 
 1. 添加`DeleteBlankLines`Package
 2. 选中全部文本，执行 `Control + option + delete`
+
+## Python input无效
+1. 添加 `SublimeREPL`
